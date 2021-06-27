@@ -1,8 +1,11 @@
+{% load dictionary_filter %}
 <div class="links clearfix">
-				<ul class="links-menu">
-					{% for link in links_menu %}
-					<li><a href="{{ link.href }}" class="active">{{ link.name }}</a></li>
-					{% endfor %}
+    <ul class="links-menu">
+        <li><a href="products_all" class="active">Все</a></li>
+        {% for link in links_menu %}
+        <li><a href="{{ links_translate|lookup:link.name}}" class="active">{{ link.name }}</a></li>
 
-				</ul>
-			</div>
+        {% endfor %}
+
+    </ul>
+</div>
