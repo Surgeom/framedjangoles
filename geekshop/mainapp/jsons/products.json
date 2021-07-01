@@ -1,0 +1,65 @@
+[
+  {
+    "category": "Дом",
+    "name": "Красный стул",
+    "img": "product_images/product-4.jpg",
+    "short_desc": "красный стул",
+    "description": "",
+    "price": "2300.00",
+    "quantity": 10
+  },
+  {
+    "category": "Модерн",
+    "name": "Лампа -сфера",
+    "img": "product_images/product-1.jpg",
+    "short_desc": "уникальное",
+    "description": "",
+    "price": "2500.00",
+    "quantity": 100
+  },
+  {
+    "category": "Офис",
+    "name": "Кресло",
+    "img": "product_images/product-21.jpg",
+    "short_desc": "белое кресло",
+    "description": "",
+    "price": "5000.00",
+    "quantity": 20
+  },
+  {
+    "category": "Офис",
+    "name": "Синее кресло",
+    "img": "product_images/product-2.jpg",
+    "short_desc": "",
+    "description": "",
+    "price": "5600.00",
+    "quantity": 15
+  },
+  {
+    "category": "Дом",
+    "name": "Диван",
+    "img": "product_images/product-3-sm.jpg",
+    "short_desc": "супер диван",
+    "description": "",
+    "price": "10000.00",
+    "quantity": 4
+  },
+  {
+    "category": "Дом",
+    "name": "Синий Диван",
+    "img": "product_images/product-3-sm.jpg",
+    "short_desc": "супер диван",
+    "description": "",
+    "price": "10000.00",
+    "quantity": 4
+  },
+  {
+    "category": "Дом",
+    "name": " Красный Диван",
+    "img": "product_images/product-3-sm.jpg",
+    "short_desc": "супер диван",
+    "description": "",
+    "price": "10000.00",
+    "quantity": 4
+  }
+]
