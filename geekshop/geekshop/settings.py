@@ -51,7 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'geekshop.urls'
-AUTH_USER_MODEL='authapp.ShopUser'
+AUTH_USER_MODEL = 'authapp.ShopUser'
 
 TEMPLATES = [
     {
@@ -119,6 +119,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'geekshop', 'static'),
+    os.path.join(BASE_DIR, 'basketapp', 'static'),
 )
 
 MEDIA_URL = '/media/'
@@ -128,3 +129,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+LOGIN_URL = '/auth/login/'
