@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'mainapp',
     'authapp',
     'basketapp',
+    'adminapp',
 ]
 
 MIDDLEWARE = [
@@ -120,6 +121,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'geekshop', 'static'),
     os.path.join(BASE_DIR, 'basketapp', 'static'),
+    os.path.join(BASE_DIR, 'adminapp', 'static'),
 )
 
 MEDIA_URL = '/media/'

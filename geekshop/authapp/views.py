@@ -3,11 +3,11 @@ from .forms import ShopUserLoginForm, ShopUserEditForm, ShopUserRegisterForm
 from django.contrib import auth
 from django.http import HttpResponseRedirect
 from django.urls import reverse
+from geekshop.settings import BASE_DIR
 
 
 def login(request):
     title = 'вход'
-
     login_form = ShopUserLoginForm(data=request.POST)
     next = request.GET['next'] if 'next' in request.GET.keys() else ''
     if request.method == 'POST' and login_form.is_valid():
