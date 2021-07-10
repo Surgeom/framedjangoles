@@ -890,18 +890,18 @@ td:first-child {
 }
 
 .details-products {
-	padding-left: 98px;
-	padding-right: 98px;
-	margin-top: 98px;
+    padding-left: 1px!important;
+    padding-right: 1px!important;
+	margin-top: 10px;
 	height: 651px; 
 }
 .details-slider {
-	width: 570px;
+	width: 300px!important;
 	float: left;
-	margin-right: 30px;
+	margin-right: 10px;
 }
 .slider-product {
-	width: 570px;
+	width: 300px;
 	height: 570px;
 }
 .slider-control {
@@ -931,7 +931,7 @@ td:first-child {
 }
 
 .description {
-	width: 535px;
+	width: 350px;
 	float: right;
 	padding-left: 35px
 }
