@@ -9,12 +9,13 @@
 </div>
 
 <div class="details">
-    {% include 'includes/inc_category_menu.html' %}
+       {% include 'includes/inc_category_menu.html' %}
+
 
     <div class="details-products">
         <div class="details-slider">
             <div class="slider-product">
-                <img src="/media/{{ hot_product.img }}" width="400" height="400">
+                <img src="/media/{{ hot_product.img }}" class="bbox">
             </div>
             <div class="slider-control">
                 <div class="block">
@@ -51,40 +52,8 @@
         </h2>
     </div>
 </div>
-{% else %}
-{% if products.0 != None %}
-<div>
-    <a href="#"><img src="/media/{{products.0.img}}" width="250" height="250" alt="">
-        <div class="text">
-            <img src="/static/geekshop/img/icon-hover.png" alt="img">
-            <h4>{{product.0.name}}</h4>
-            <p>{{product.0.short_desc}} </p>
-        </div>
-    </a>
-</div>
 {% endif %}
-{% endif %}
-<div class="featured">
-    <div class="featured-menu">
-        <a class="active" href="#">Популярные</a><a href="#">Новинки</a>
-    </div>
-    <a class="explore" href="#">показать все <img src="/static/geekshop/img/arrow.png" alt=""></a>
-    <div class="clearfix">
-    </div>
-    <div class="tab-content">
-        {% for product in products %}
-        <div class="block">
-            <a href="{% url 'products:product' product.pk %}"><img src="/media/{{product.img}}" width="250" height="250"
-                    alt="">
-                <div class="text">
-                    <img src="/static/geekshop/img/icon-hover.png" alt="img">
-                    <h4>{{product.name}}</h4>
-                    <p>{{product.short_desc}} </p>
-                </div>
-            </a>
-        </div>
-        {% endfor %}
-    </div>
+{% include 'includes/inc_featured.html' %}
     <div class="related">
         <div class="title clearfix">
             <h2>Похожие продукты</h2>

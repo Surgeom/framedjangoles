@@ -21,7 +21,7 @@ class Basket(models.Model):
         verbose_name='время',
         auto_now_add=True,
     )
-
+    is_deleted = models.BooleanField(default=False)
     # def general_price(self):
     #     return Product.objects.filter(pk=self.produt.id)[0].price * self.quantity
     @property

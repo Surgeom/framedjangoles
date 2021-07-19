@@ -13,3 +13,4 @@ class ShopUser(AbstractUser):
         null=True
 
     )
+    is_deleted = models.BooleanField(default=False)
