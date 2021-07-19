@@ -18,7 +18,10 @@
         {% endif %}
         <li>
             {% if user.is_authenticated %}
-            <a href="{% url 'auth:logout' %}">выйти</a>
+            <form action="{% url 'auth:logout' %}" method="post" >
+                {% csrf_token %}
+             <input type="submit" value="Выйти" />
+            </form>
             {% else %}
             <a href="{% url 'auth:login' %}">войти</a>
             {% endif %}

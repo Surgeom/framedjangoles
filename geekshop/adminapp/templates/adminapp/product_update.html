@@ -1,0 +1,18 @@
+{% extends 'adminapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="col-3 mx-auto">
+    <form class="form-horizontal" action="{% url 'admin_staff:product_update' category.pk %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ update_form.as_p }}
+
+        <input class="form-control" type="submit" value="Изменить">
+    </form>
+    </div>
+ <div class="card-footer">
+                <a href="{% url 'adminapp:products' category.pk %}">
+                    <button class="btn btn-success">Продукты</button>
+                </a>
+            </div>
+{% endblock %}
