@@ -1093,8 +1093,20 @@ td:first-child {
 }
 .product_menu{
 	margin-top: 50px;
+	display: flex;
+	flex-wrap: nowrap;
+  	overflow-x: auto;
+
 }
 .user_avatar{
 	display: flex;
     justify-content: center;
+}
+.product_menu ul{
+	flex: 0 0 auto;
+}
+.overf_menu {
+	display: flex;
+	flex-wrap: nowrap;
+  	overflow-x: auto;
 }

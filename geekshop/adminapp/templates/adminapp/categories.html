@@ -38,7 +38,7 @@
                                 </td>
 
                                 <td>
-                                    <a {% if category.is_deleted %} class="invisible" {% endif %} href="{#% url 'admin_staff:category_delete' pk=category.id %#}">
+                                    <a {% if category.is_deleted %} class="invisible" {% endif %} href="{% url 'admin_staff:category_delete' pk=category.id %}">
                                         <i class="fa fa-times-circle"></i>
                                     </a>
                                 </td>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="card-footer">
-                <a href="{#% url 'adminapp:category_create' %#}">
+                <a href="{% url 'adminapp:category_create' %}">
                     <button class="btn btn-success">Создать категорию</button>
                 </a>
             </div>

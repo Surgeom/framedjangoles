@@ -4,18 +4,37 @@ from .models import Basket
 from django.contrib.auth.decorators import login_required
 from django.template.loader import render_to_string
 from django.http import JsonResponse
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic import DetailView
 
 
-@login_required
-def basket(request):
-    if request.user.is_authenticated:
-        basket = Basket.objects.filter(user=request.user)
-        context = {
-            'basket': basket
-        }
+class BasketDatailView(LoginRequiredMixin, DetailView):
+    model = Basket
+    template_name = 'basketapp/basket.html'
 
-        return render(request, 'basketapp/basket.html', context)
-    return render(request, 'basketapp/basket.html')
+    def get_object(self, queryset=None):
+        self.object = Basket.objects.filter(user=self.request.user)
+        return self.object
+
+    def get_context_data(self, **kwargs):
+        context = super(BasketDatailView, self).get_context_data()
+        context['basket'] = self.object
+        return context
+
+
+# @login_required
+# def basket(request):
+#     if request.user.is_authenticated:
+#         basket = Basket.objects.filter(user=request.user)
+#         context = {
+#             'basket': basket
+#         }
+#
+#         return render(request, 'basketapp/basket.html', context)
+#     return render(request, 'basketapp/basket.html')
+
+
+
 
 
 @login_required
