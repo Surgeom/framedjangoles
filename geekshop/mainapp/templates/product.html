@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% load my_tags %}
 {% block content %}
 <div class="hero-white">
     {% include 'includes/inc_main_menu.html' %}
@@ -11,17 +11,17 @@
     <div class="details-products">
         <div class="details-slider">
             <div class="slider-product">
-                <img src="/media/{{ product.img }}" width="400" height="400">
+                <img src="/media/{{ product.img|media_folder_products }}" width="400" height="400">
             </div>
             <div class="slider-control">
                 <div class="block">
-                    <a href="#"><img src="/media/{{ product.img}}" width="50" height="50" alt=""></a>
+                    <a href="#"><img src="/media/{{ product.img|media_folder_products}}" width="50" height="50" alt=""></a>
                 </div>
                 <div class="block">
-                    <a href="#"><img src="/media/{{ product.img }}" width="50" height="50" alt=""></a>
+                    <a href="#"><img src="/media/{{ product.img|media_folder_products }}" width="50" height="50" alt=""></a>
                 </div>
                 <div class="block">
-                    <a href="#"><img src="/media/{{ product.img }}" width="50" height="50" alt=""></a>
+                    <a href="#"><img src="/media/{{ product.img|media_folder_products }}" width="50" height="50" alt=""></a>
                 </div>
             </div>
         </div>
