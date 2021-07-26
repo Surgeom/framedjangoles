@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-
+{% load my_tags %}
 
 {% block content %}
 
@@ -15,17 +15,17 @@
     <div class="details-products">
         <div class="details-slider">
             <div class="slider-product">
-                <img src="/media/{{ hot_product.img }}" class="bbox">
+                <img src="/media/{{ hot_product.img|media_folder_products }}" class="bbox">
             </div>
             <div class="slider-control">
                 <div class="block">
-                    <a href="#"><img src="/media/{{ hot_product.img}}" width="50" height="50" alt=""></a>
+                    <a href="#"><img src="/media/{{ hot_product.img|media_folder_products}}" width="50" height="50" alt=""></a>
                 </div>
                 <div class="block">
-                    <a href="#"><img src="/media/{{ hot_product.img }}" width="50" height="50" alt=""></a>
+                    <a href="#"><img src="/media/{{ hot_product.img|media_folder_products }}" width="50" height="50" alt=""></a>
                 </div>
                 <div class="block">
-                    <a href="#"><img src="/media/{{ hot_product.img }}" width="50" height="50" alt=""></a>
+                    <a href="#"><img src="/media/{{ hot_product.img|media_folder_products }}" width="50" height="50" alt=""></a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
         <div class="related-products clearfix">
             {% for prod in same_products %}
             <div class="block">
-                <a href="#"><img src="/media/{{prod.img}}" alt="">
+                <a href="#"><img src="/media/{{prod.img|media_folder_products}}" alt="">
                     <div class="text">
                         <img src="/static/geekshop/img/icon-hover.png" alt="img">
                         <h4>{{prod.name}}</h4>
