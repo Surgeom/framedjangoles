@@ -1,6 +1,6 @@
 from django.urls import path, re_path
 from .views import ShopUserLoginView, ShopUserLogoutView, RegisterCreateView, ShopUserEditUpdateView, send_verify_mail, \
-    verify, register
+    verify, register, edit
 
 app_name = 'authapp'
 
@@ -9,7 +9,7 @@ urlpatterns = [
     path('logout/', ShopUserLogoutView.as_view(), name='logout'),
     # path('register/', RegisterCreateView.as_view(), name='register'),
     path('register/', register, name='register'),
-    path('edit/', ShopUserEditUpdateView.as_view(), name='edit'),
+    path('edit/', edit, name='edit'),
     path('verify/<str:email>/<str:activation_key>/', verify, name='verify'),
 
 ]
