@@ -549,8 +549,9 @@ html, body {
 	background-color: #f7f7f7;
 	padding-left: 99px;
 	padding-right: 98px;
-	margin: -384px auto 0;
+	margin: -400px auto 0;
 	clear: both;
+	
 }
 .footer form {
 	position: relative;
@@ -718,6 +719,7 @@ td:first-child {
 	padding: 0px 97px;
 	display: flex;
 	flex-direction: row;
+	margin-top: 80px;
 }
 .location-1 {
 	height: 368px;
@@ -897,7 +899,7 @@ td:first-child {
 .details-products {
     padding-left: 10px;
     padding-right: 10px;
-	margin-top: 10px;
+	margin-top: 100px;
 	height: 500px;
 	display: flex; 
 	flex-direction: row;
@@ -1109,4 +1111,8 @@ td:first-child {
 	display: flex;
 	flex-wrap: nowrap;
   	overflow-x: auto;
+}
+.marginbasc{
+	margin-top: 100px !important;
+	margin-bottom: 70px;
 }
