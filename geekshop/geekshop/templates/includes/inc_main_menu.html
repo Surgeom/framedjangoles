@@ -11,9 +11,26 @@
             <a href="{% url 'admin_staff:users' %}">Админка </a>
         </li>
         {% endif %}
-        {% if user.is_authenticated %}
+              {% if user.is_authenticated %}
         <li>
-            <a href="{% url 'auth:edit' %}">{{ user.first_name|default:'Пользователь' }} </a>
+            <div class="dropdown">
+                <a class="dropdown-toggle" href="" data-toggle="dropdown">
+                    {{ user.first_name|default:'Пользователь' }}
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="{% url 'auth:edit' %}">
+                            профиль
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'ordersapp:orders_list' %}">
+                            заказы
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </li>
         {% endif %}
         <li>
@@ -27,9 +44,8 @@
             {% endif %}
 
         </li>
-
     </ul>
-    <a href="#" class="search"></a>
+        <a href="#" class="search"></a>
     <span><a href="{% url 'basket:view' %}" class="basket">
             {% if basket %}
             {{ basket.0.total_cost|floatformat:0 }} руб
