@@ -5,7 +5,7 @@ from basketapp.models import Basket
 
 def index(request):
     title = 'Магазин'
-    products = Product.objects.all()
+    products = Product.objects.filter(is_deleted=False,category__is_deleted=False)
     basket = []
     if request.user.is_authenticated:
         basket = Basket.objects.filter(user=request.user)
