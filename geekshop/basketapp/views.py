@@ -6,6 +6,7 @@ from django.template.loader import render_to_string
 from django.http import JsonResponse
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import DetailView
+from django.db.models import F,Q
 
 
 class BasketDatailView(LoginRequiredMixin, DetailView):
@@ -34,9 +35,6 @@ class BasketDatailView(LoginRequiredMixin, DetailView):
 #     return render(request, 'basketapp/basket.html')
 
 
-
-
-
 @login_required
 def basket_add(request, pk):
     product = get_object_or_404(Product, pk=pk)
@@ -45,6 +43,7 @@ def basket_add(request, pk):
     if not basket:
         basket = Basket(user=request.user, product=product)
     basket.quantity += 1
+    # basket[0].quantity = F('quantity') + 1
     basket.save()
     if 'login' in request.META.get('HTTP_REFERER'):
         return HttpResponseRedirect(reverse('products:product', args=[pk]))
