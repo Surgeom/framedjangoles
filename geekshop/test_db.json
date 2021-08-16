@@ -1,0 +1,1650 @@
+[
+  {
+    "model": "mainapp.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Дом",
+      "description": "",
+      "created": "2021-06-30T23:04:25.323",
+      "updated": "2021-08-16T00:03:39.187",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Офис",
+      "description": "",
+      "created": "2021-06-30T23:04:25.326",
+      "updated": "2021-06-30T23:04:25.326",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Модерн",
+      "description": "",
+      "created": "2021-06-30T23:04:25.329",
+      "updated": "2021-06-30T23:04:25.329",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Классика",
+      "description": "",
+      "created": "2021-06-30T23:04:25.332",
+      "updated": "2021-06-30T23:04:25.332",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Синий Диван",
+      "img": "product_images/product-3-sm_09TTI0Y.jpg",
+      "short_desc": "супер диван",
+      "description": "",
+      "price": "8019.00",
+      "quantity": 7,
+      "created": "2021-06-30T23:04:25.336",
+      "updated": "2021-08-06T13:09:10.713",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "product_images/product-1.jpg",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 11,
+      "created": "2021-06-30T23:04:25.339",
+      "updated": "2021-08-06T12:09:04.155",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "name": "Кресло",
+      "img": "product_images/product-21.jpg",
+      "short_desc": "белое кресло",
+      "description": "",
+      "price": "5000.00",
+      "quantity": 20,
+      "created": "2021-06-30T23:04:25.342",
+      "updated": "2021-08-11T20:36:26.015",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "name": "Синее кресло",
+      "img": "product_images/product-2.jpg",
+      "short_desc": "",
+      "description": "",
+      "price": "5600.00",
+      "quantity": 16,
+      "created": "2021-06-30T23:04:25.345",
+      "updated": "2021-08-04T09:39:11.871",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "Диван",
+      "img": "product_images/product-3-sm.jpg",
+      "short_desc": "супер диван",
+      "description": "",
+      "price": "8019.00",
+      "quantity": 5,
+      "created": "2021-06-30T23:04:25.349",
+      "updated": "2021-08-11T20:36:40.266",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "name": "Синий Диван",
+      "img": "product_images/product-3-sm.jpg",
+      "short_desc": "супер диван",
+      "description": "",
+      "price": "8019.00",
+      "quantity": 4,
+      "created": "2021-06-30T23:04:25.351",
+      "updated": "2021-08-11T20:26:31.711",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "name": " Красный Диван",
+      "img": "product_images/product-3-sm.jpg",
+      "short_desc": "супер диван",
+      "description": "",
+      "price": "8019.00",
+      "quantity": 3,
+      "created": "2021-06-30T23:04:25.356",
+      "updated": "2021-08-11T20:36:40.257",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "name": "Диван",
+      "img": "product_images/product-3-sm_v0laBwM.jpg",
+      "short_desc": "супер диван2",
+      "description": "вмым",
+      "price": "8019.00",
+      "quantity": 7,
+      "created": "2021-07-14T19:52:31.282",
+      "updated": "2021-08-11T20:36:26.006",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 15,
+    "fields": {
+      "category": 2,
+      "name": "стол",
+      "img": "",
+      "short_desc": "стол",
+      "description": "стол",
+      "price": "2500.00",
+      "quantity": 1,
+      "created": "2021-07-18T19:52:37.708",
+      "updated": "2021-07-18T19:52:37.708",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 16,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 12,
+      "created": "2021-07-18T19:54:00.524",
+      "updated": "2021-08-03T23:33:32.771",
+      "is_deleted": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 17,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 10,
+      "created": "2021-07-18T19:54:37.613",
+      "updated": "2021-07-18T20:20:30.331",
+      "is_deleted": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 18,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 10,
+      "created": "2021-07-18T19:54:54.700",
+      "updated": "2021-07-18T20:20:27.589",
+      "is_deleted": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 19,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 10,
+      "created": "2021-07-18T19:56:32.087",
+      "updated": "2021-07-18T20:20:24.269",
+      "is_deleted": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 20,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 12,
+      "created": "2021-07-18T19:57:19.523",
+      "updated": "2021-08-03T23:33:32.787",
+      "is_deleted": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 21,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 10,
+      "created": "2021-07-18T19:59:44.712",
+      "updated": "2021-07-18T20:20:12.019",
+      "is_deleted": true
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 22,
+    "fields": {
+      "category": 2,
+      "name": "стол2",
+      "img": "",
+      "short_desc": "уникальное",
+      "description": "",
+      "price": "2700.00",
+      "quantity": 10,
+      "created": "2021-07-18T20:19:57.457",
+      "updated": "2021-07-18T20:20:15.884",
+      "is_deleted": true
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$DytgIspqht3YAUSgJU9Tov$zsCu/mDfWWvRA+2n4cLTgCuwdXA1NARKS562VOmfedA=",
+      "last_login": "2021-08-09T19:29:42.297",
+      "is_superuser": true,
+      "username": "Surgeom",
+      "first_name": "",
+      "last_name": "",
+      "email": "Ushakevichkirill@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-07-01T00:13:01.301",
+      "avatar": "",
+      "age": 29,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$9Mb8GQ40P75u9Xh6jBvSkx$Ehl/MIDMCBDfzBRYPUApEYYep0i3OXhDcqEYQt5+GC8=",
+      "last_login": "2021-07-18T23:27:15.096",
+      "is_superuser": false,
+      "username": "mike",
+      "first_name": "mike",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-01T15:57:45",
+      "avatar": "",
+      "age": 20,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$C72MpwCVxJEAxXWfC46luR$Dsnlg3R6UfGGmRwJ3apnDlXCTkfDl/d11cFR7lVvFrM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "user1",
+      "first_name": "jhon",
+      "last_name": "",
+      "email": "gdgsg@mail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-10T17:02:08",
+      "avatar": "",
+      "age": 20,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$IbWv0bp5pi3IoB29USB4SA$7qdILNMxOR/ZwtHM/ud0OSdya5FS7B0rqCcOg0RRlcc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "try2",
+      "first_name": "dd",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-17T00:50:07",
+      "avatar": "",
+      "age": 25,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$wlcjh0ozY5x7xe3bq6SvX2$KVvBSUPl+8XjoHU5UWwcibeaE9d9xZavEO6bhWbUmWQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "try3",
+      "first_name": "try3",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-17T00:52:14.860",
+      "avatar": "",
+      "age": 25,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$sBoF8DEY0ffxHCbzq5oCAO$oBkUo+fvkHDYhswysg7SCPggQdgK1lUeHEl0LD12ADY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "try4",
+      "first_name": "try4",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-17T00:52:46.980",
+      "avatar": "",
+      "age": 25,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$SYf1zccpn9QVwE0mH3YTRa$53M74gxTx7ukCuaqRR3PyQPx/0sE46Dh/sc56LdYIFI=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "try5",
+      "first_name": "try5",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-17T00:53:22.835",
+      "avatar": "",
+      "age": 25,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$bxEQzcwo7Cn5PkLsG8ZtGw$u8AQ8uRw0oPkrxXn9x87PG1ewh8O/7s/mFekRz8RYqY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "try6",
+      "first_name": "try6",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-17T00:56:32.227",
+      "avatar": "",
+      "age": 25,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$ZVDCPDZEmpajlcQ3XkQxTq$5Iwa1vWkk3AH/T9QvZrUBdVSsL2bsgcMoHEX3p6H8x0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "try7",
+      "first_name": "ded",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-19T16:50:22.608",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 10,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$x50oFvAbtSt4Zy7unHvoug$snhL/gX8TVvIBF+IF1r2sTFQcl9Scc4O/UGOGVXqTsU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "try8",
+      "first_name": "ded",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-19T16:51:25.980",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-26T21:01:12.665",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$uhlbst7HrHOjMjgwFgat7q$q8r0vKRmOqMddOPN03H4hc2YCj3bOYiqsJSdEf6pOsY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "d@mail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:02:07.616",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "4b39a659da5fd62a20046c9e9d855369d07f4ea7",
+      "activation_key_expires": "2021-07-26T21:01:23.106",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$t0KrNtWWJgXEzWVTYHaLPX$2x4qfp2yKrH9UE6e9wQpmxnA7FaWybkYKPMc1g4HWso=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John2",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:05:21.666",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "e29e981ad0af62a389760bf8b9a5c3501e3ffce5",
+      "activation_key_expires": "2021-07-26T21:03:49.376",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Wd6CVotd2vTG33lv15Kwht$ZPBXQTBtzxLOV4Olo/MKeeL2i9/iKpvn9sZe4xwK7ZQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John3",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:05:56.980",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "acbc89a857b1f3f1a45ca41443f2185a039929a9",
+      "activation_key_expires": "2021-07-26T21:05:42.311",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$9Wu1BQID4XE9H6QhLtEkcQ$bIJ7v9wqehqsbgArns1b2AqZmpjctvoO75XZhF9q+kY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John4",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:08:54.711",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "b95ac0d5620a151ff18bf52e4fba6bc8f9100001",
+      "activation_key_expires": "2021-07-26T21:08:36.245",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$wFbIVPTbmoE4hfdKXAUx41$X6bYEiRe2PCG2sURM5+5SsJ6cC/p256waBgRbgiBkWw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John5",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:12:19.633",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "9e909732f6c7db0fb5640253cc2680ef01cc958c",
+      "activation_key_expires": "2021-07-26T21:09:33.755",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$jyaANX5qq39xSSQgaLzDZS$M9PrSmBMNmAvZaZ1vUkxhuBDMmOpIImog3+fyTz1URA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John6",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:16:18.642",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "2b3221db0cebfb8da45fbe9e94420a9149166cfb",
+      "activation_key_expires": "2021-07-26T21:16:02.469",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 17,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$QW7bPj00VYLzmc2AfaZUk2$p9pMRlQqmOgOuZCeSTuClPtivHWb0352PxDMHagQAjA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John7",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:21:41.663",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "b7ce37a2940cd11bf7cd0df68bdbd88735fd92b1",
+      "activation_key_expires": "2021-07-26T21:21:23.234",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$vQxTwQ04iNg0eVIhqb2PN2$l7SBhW5j8Fwxt9SrysnlnuO1a0/99eFAYF1+ZuQ3UPw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John8",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:24:39.626",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "167c31172662e4c6c7a28168d8dc0bbc280edec8",
+      "activation_key_expires": "2021-07-26T21:24:20.359",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$SYEc1mL1z8DsTWk7oS1nFH$M5r/PNaxFQfDXLHyLglhLf6FwLea85N+NJ6s5Vfywvw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John9",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:40:25.088",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "39f90a33f92614037386db4651ec4798ae8be0af",
+      "activation_key_expires": "2021-07-26T21:40:08.127",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 20,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$uINkgSufBxKKTKCSlpnk7V$r++50fY9PzOo7kkxip6GhxKSfbRnSSJYbv1fMakaA3A=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John10",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:41:44.549",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "49e916744ca8a0a7ef239a7c446c3870a92aff5e",
+      "activation_key_expires": "2021-07-26T21:41:28.601",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$vbqaKZgjXDoekFv231qiX6$LiwmaLk5c6IvmXNxb/2GQUKVHE3dxeh1yE8wY6m4swc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "John11",
+      "first_name": "hgh",
+      "last_name": "",
+      "email": "ushakevichkirill@gmail.com",
+      "is_staff": false,
+      "is_active": false,
+      "date_joined": "2021-07-24T21:42:25.410",
+      "avatar": "",
+      "age": 27,
+      "activation_key": "5515e5d5e9449092a26b908aef4aa29cda3af3d5",
+      "activation_key_expires": "2021-07-26T21:41:59.489",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 22,
+    "fields": {
+      "password": "!UlcnHeRqlcplyu4OxO7g4FwNF0w1Aebd7aIm54JO",
+      "last_login": "2021-07-27T11:58:37.152",
+      "is_superuser": false,
+      "username": "id11488452",
+      "first_name": "Кирилл",
+      "last_name": "Ушакевич",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-07-26T20:22:59.476",
+      "avatar": "",
+      "age": null,
+      "activation_key": "",
+      "activation_key_expires": "2021-07-28T20:22:52.286",
+      "is_deleted": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "M"
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 9,
+    "fields": {
+      "user": 9,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 10,
+    "fields": {
+      "user": 10,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 11,
+    "fields": {
+      "user": 11,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 12,
+    "fields": {
+      "user": 12,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 13,
+    "fields": {
+      "user": 13,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 14,
+    "fields": {
+      "user": 14,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 15,
+    "fields": {
+      "user": 15,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 16,
+    "fields": {
+      "user": 16,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 17,
+    "fields": {
+      "user": 17,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 18,
+    "fields": {
+      "user": 18,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 19,
+    "fields": {
+      "user": 19,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 20,
+    "fields": {
+      "user": 20,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 21,
+    "fields": {
+      "user": 21,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": ""
+    }
+  },
+  {
+    "model": "authapp.shopuserprofile",
+    "pk": 22,
+    "fields": {
+      "user": 22,
+      "tagline": "",
+      "aboutMe": "",
+      "gender": "M"
+    }
+  },
+  {
+    "model": "basketapp.basket",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "product": 1,
+      "quantity": 4,
+      "add_datetime": "2021-07-05T01:41:19.289",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "basketapp.basket",
+    "pk": 26,
+    "fields": {
+      "user": 22,
+      "product": 6,
+      "quantity": 1,
+      "add_datetime": "2021-07-26T21:48:31.986",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "created": "2021-07-31T23:02:23.464",
+      "updated": "2021-07-31T23:22:10.020",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "created": "2021-07-31T23:05:51.095",
+      "updated": "2021-07-31T23:21:26.793",
+      "status": "STP",
+      "is_active": true
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "created": "2021-07-31T23:23:43.501",
+      "updated": "2021-07-31T23:24:25.981",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-03T23:31:54.077",
+      "updated": "2021-08-03T23:33:32.792",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-04T00:00:51.434",
+      "updated": "2021-08-04T00:00:55.696",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-04T09:39:11.869",
+      "updated": "2021-08-04T09:39:27.744",
+      "status": "STP",
+      "is_active": true
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-04T10:03:54.116",
+      "updated": "2021-08-05T11:11:54.563",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-04T10:34:22.049",
+      "updated": "2021-08-04T10:41:33.658",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-04T10:38:32.473",
+      "updated": "2021-08-04T10:38:32.499",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 10,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-04T10:46:00.220",
+      "updated": "2021-08-04T10:46:00.244",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 11,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-05T11:36:06.536",
+      "updated": "2021-08-05T11:36:06.561",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-05T11:36:21.357",
+      "updated": "2021-08-06T12:09:04.158",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 13,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-06T12:09:18.652",
+      "updated": "2021-08-06T12:09:18.667",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 14,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-06T12:09:33.678",
+      "updated": "2021-08-06T13:08:25.052",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 15,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-06T12:29:57.542",
+      "updated": "2021-08-06T12:29:57.556",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-06T13:08:11.096",
+      "updated": "2021-08-06T13:08:11.111",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 17,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-06T13:08:43.155",
+      "updated": "2021-08-06T13:09:10.716",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 18,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-11T20:26:41.516",
+      "updated": "2021-08-11T20:36:26.022",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 19,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-11T20:27:35.433",
+      "updated": "2021-08-11T20:36:22.048",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 20,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-11T20:27:57.829",
+      "updated": "2021-08-11T20:36:17.846",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 21,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-11T20:29:09.223",
+      "updated": "2021-08-11T20:35:46.941",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-11T20:35:21.328",
+      "updated": "2021-08-11T20:35:43.700",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 23,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-11T20:35:31.461",
+      "updated": "2021-08-11T20:35:40.107",
+      "status": "FM",
+      "is_active": false
+    }
+  },
+  {
+    "model": "ordersapp.order",
+    "pk": 24,
+    "fields": {
+      "user": 1,
+      "created": "2021-08-11T20:36:40.233",
+      "updated": "2021-08-11T20:36:40.287",
+      "status": "FM",
+      "is_active": true
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "product": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 2,
+    "fields": {
+      "order": 2,
+      "product": 6,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 3,
+    "fields": {
+      "order": 2,
+      "product": 22,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 4,
+    "fields": {
+      "order": 2,
+      "product": 4,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 5,
+    "fields": {
+      "order": 1,
+      "product": 2,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 7,
+    "fields": {
+      "order": 4,
+      "product": 9,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 8,
+    "fields": {
+      "order": 4,
+      "product": 5,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 9,
+    "fields": {
+      "order": 4,
+      "product": 16,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 10,
+    "fields": {
+      "order": 4,
+      "product": 4,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 11,
+    "fields": {
+      "order": 4,
+      "product": 20,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 12,
+    "fields": {
+      "order": 4,
+      "product": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 13,
+    "fields": {
+      "order": 5,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 14,
+    "fields": {
+      "order": 6,
+      "product": 4,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 15,
+    "fields": {
+      "order": 7,
+      "product": 5,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 16,
+    "fields": {
+      "order": 7,
+      "product": 9,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 17,
+    "fields": {
+      "order": 7,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 18,
+    "fields": {
+      "order": 8,
+      "product": 3,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 19,
+    "fields": {
+      "order": 12,
+      "product": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 20,
+    "fields": {
+      "order": 12,
+      "product": 2,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 21,
+    "fields": {
+      "order": 14,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 22,
+    "fields": {
+      "order": 17,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 23,
+    "fields": {
+      "order": 17,
+      "product": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 24,
+    "fields": {
+      "order": 18,
+      "product": 9,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 25,
+    "fields": {
+      "order": 18,
+      "product": 3,
+      "quantity": 2
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 26,
+    "fields": {
+      "order": 19,
+      "product": 9,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 27,
+    "fields": {
+      "order": 19,
+      "product": 3,
+      "quantity": 2
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 28,
+    "fields": {
+      "order": 20,
+      "product": 9,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 29,
+    "fields": {
+      "order": 20,
+      "product": 3,
+      "quantity": 2
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 30,
+    "fields": {
+      "order": 21,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 31,
+    "fields": {
+      "order": 21,
+      "product": 5,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 32,
+    "fields": {
+      "order": 22,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 33,
+    "fields": {
+      "order": 22,
+      "product": 5,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 34,
+    "fields": {
+      "order": 23,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 35,
+    "fields": {
+      "order": 23,
+      "product": 5,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 36,
+    "fields": {
+      "order": 24,
+      "product": 7,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "ordersapp.orderitem",
+    "pk": 37,
+    "fields": {
+      "order": 24,
+      "product": 5,
+      "quantity": 1
+    }
+  },
+  {
+    "model": "social_django.usersocialauth",
+    "pk": 1,
+    "fields": {
+      "user": 22,
+      "provider": "vk-oauth2",
+      "uid": "11488452",
+      "extra_data": "{\"auth_time\": 1627376317, \"id\": 11488452, \"expires\": 86400, \"access_token\": \"56cb764e76b09dd638548f012b0ca3711140f6e2425fd1a932db11bfcb621554caa631843030ebd1eb05f\", \"token_type\": null}",
+      "created": "2021-07-26T20:22:59.483",
+      "modified": "2021-07-27T11:58:37.139"
+    }
+  }
+]
